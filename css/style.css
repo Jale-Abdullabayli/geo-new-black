@@ -78,9 +78,6 @@ nav .logo {
 nav .logo img {
   filter: grayscale(100) brightness(100);
 }
-nav .logo .logoText {
-  width: 180px;
-}
 nav .rightSide {
   display: flex;
   align-items: center;
