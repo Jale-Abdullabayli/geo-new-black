@@ -71,8 +71,15 @@ nav.scroll a {
 nav.scroll .logo img {
   filter: none;
 }
+nav .logo {
+  display: flex;
+  align-items: center;
+}
 nav .logo img {
   filter: grayscale(100) brightness(100);
+}
+nav .logo .logoText {
+  width: 180px;
 }
 nav .rightSide {
   display: flex;
@@ -246,6 +253,7 @@ nav .rightSide .menuButton {
   letter-spacing: -3px;
   position: relative;
   margin: 0;
+  color: white;
 }
 #carouselExampleControls .carousel-inner .carousel-item .carousel-caption .line {
   height: 10px;
@@ -365,6 +373,9 @@ nav .rightSide .menuButton {
   transition: 0.2s ease;
 }
 
+.projects {
+  background-color: #F8F9FA;
+}
 .projects .title {
   display: flex;
   justify-content: space-between;
@@ -409,9 +420,6 @@ nav .rightSide .menuButton {
   margin-bottom: 0 !important;
 }
 
-.services {
-  background-color: #F8F9FA;
-}
 .services .twice {
   display: flex;
   flex-direction: column;

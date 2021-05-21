@@ -87,8 +87,14 @@ nav {
     }
 
     .logo {
+        display: flex;
+        align-items: center;
         img {
             filter: grayscale(100) brightness(100);
+           
+        }
+        .logoText{
+            width: 180px;
         }
     }
 
@@ -294,6 +300,7 @@ nav {
                     letter-spacing: -3px;
                     position: relative;
                     margin: 0;
+                    color: white;
                 }
 
 
@@ -447,6 +454,8 @@ nav {
 }
 
 .projects {
+    background-color: $bgColor;
+
     .title {
         display: flex;
         justify-content: space-between;
@@ -502,7 +511,6 @@ nav {
 }
 
 .services {
-    background-color: $bgColor;
 
     .twice {
         display: flex;
