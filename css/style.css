@@ -125,7 +125,7 @@ nav .rightSide .links .linkItem {
 }
 
 nav .rightSide .links .linkItem:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 nav .rightSide .contact {
